@@ -1,0 +1,17 @@
+import java.util.*;
+
+class UserInputDemo
+	{
+		public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter first Number-");
+		int a=sc.nextInt();
+		System.out.print("Enter second Number-");
+		int b=sc.nextInt();
+		System.out.print("Enter Third Number-");
+		int c=sc.nextInt();
+		int d=a+b+c;
+		System.out.println("Total="+d);
+	}
+	}
