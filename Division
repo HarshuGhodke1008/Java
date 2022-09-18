@@ -1,0 +1,11 @@
+class Division
+{
+public static void main(String args[])
+{
+int a=5,b=15,c,d;
+c=b/a;
+d=b%a;
+System.out.println("Quotient="+c);
+System.out.println("Reminder="+d);
+}
+}
