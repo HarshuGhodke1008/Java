@@ -1,0 +1,12 @@
+/*already input*/
+import java.util.Scanner;
+class MaxThree
+	{
+		public static void main(String args[])
+			{
+				int x=12,y=14,z=15,a;
+				a=z>(x>y?x:y)?z:((x>y)?x:y);
+				System.out.println("Maximum of three numbers"+a);
+				}
+				}
+				
