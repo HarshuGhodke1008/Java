@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class MaxThree1
+	{
+		public static void main(String args[])
+		{
+		int max;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the First Number");
+		int a=sc.nextInt();
+		System.out.println("Enter the Second Number");
+		int b=sc.nextInt();
+		System.out.println("Enter the Third Number");
+		int c=sc.nextInt();
+		max=c>(a>b?a:b)?c:((a>b)?a:b);
+		System.out.println("Maxmum Of Three Number is="+max);
+		}
+		}
+
