@@ -1,0 +1,9 @@
+class Multiply
+{
+public static void main(String args[])
+{
+int a=5,b=10,c;
+c=b*a;
+System.out.println("Multiplication="+c);
+}
+}
