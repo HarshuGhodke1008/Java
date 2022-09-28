@@ -1,0 +1,26 @@
+/*program to define a class and an object o the class*/
+public class Myclasss
+{
+int num;
+public Myclasss()
+{
+num=0;
+}
+public Myclasss(int num)
+{
+this.num=num;
+}
+public static void main(String[] args)
+{
+Myclasss m1=new Myclasss();
+if(args.length>0)
+{
+int n=Integer.parseInt(args[0]);
+Myclasss m2=new Myclasss(n);
+System.out.println(m1.num);
+System.out.println(m2.num);
+}
+else
+System.out.println("Insufficient argument");
+}
+}

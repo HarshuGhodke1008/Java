@@ -1,0 +1,22 @@
+/*program to generate documentation*/
+/**
+This program demonstrate javadoc 
+*/
+public class Myclassf
+{
+	int num;
+/**
+Deafault constructor*/
+public Myclassf()
+{
+num=0;
+}
+/**
+Member function
+@param x Represents the new value of num @return void No return value
+*/
+public void assignValue(int x)
+{
+num=x;
+}
+}
