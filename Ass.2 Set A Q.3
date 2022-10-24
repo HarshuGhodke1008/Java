@@ -1,0 +1,53 @@
+import java.util.*;
+Class Happy
+{
+	Scanner sc=new Scanner(System.in);
+	String name;
+	public float salary;
+	void input()
+	{
+		System.out.println("Enter Employee name :");
+		name=sc.next();
+		System.out.println("Enter Salary Of an Employee");
+		salary=sc.nextFloat();
+	}
+	void show()
+	{
+		System.out.println("Employee name:"+name);
+		System.out.println("Employee Salary:"+salary);
+	}
+	public static void main(String a[])
+	{
+		Scannner sc=new Scanner(System.in);
+		System.out.println("Enter how many information you want to store");
+		int n=s.nextInt();
+		employee e[]=new employee[n];
+		float sal[]=new float[5];
+		for(int i=0;i<n;i++)
+		{
+			e[i]=new employee();
+			e[i].input();
+			sal[i]=e[i].salary;
+		}
+		for(int i=o;i<n;i++)
+		{
+			e[i].show();
+		}
+		float max=sal[0];
+		float arr[]=new float[5];
+		int j=0;
+		for(int i=0;i<n;i++)
+		{
+			if(max=sal[i])
+			{
+				max=sal[i];
+				arr[j]=max;
+				j=i;
+			}
+		}
+		System.out.println("Employee having Maximum Salary");
+		e[j].show();
+	}
+}
+
+	
